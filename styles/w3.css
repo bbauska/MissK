@@ -237,7 +237,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 #zoomA {
   /* (A) OPTIONAL DIMENSIONS */
   width: 600px;
-  height: auto;
+  height: 450px;
+<!--  height: auto; -->
  
   /* (B) ANIMATE ZOOM */
   /* ease | ease-in | ease-out | linear */
