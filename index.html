@@ -1,19 +1,24 @@
 <!DOCTYPE html>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~ index.html of MissK.bauska.org ~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ index.html of missk.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <html>
 <head>
   <link rel="icon" type="image/x-icon" href="/assets/img/favicon.png" />
-  
-  <title>Miss K Memories</title>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="author" content="Brian Bauska">
+  <meta name="description" content="Kitterson photo album for Silus Gaming World, Silus the Snake, and Silus Squad Members" on YouTube."/>
+  <meta name="keywords" content="HTML,CSS,JavaScript">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miss K Memories</title>
+  
   <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
   <link rel="stylesheet" href="/styles/w3.css">
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <style>
     body,h1 {font-family: "Montserrat", sans-serif}
     img {margin-bottom: -7px}
@@ -37,20 +42,19 @@
 
 <!-- !page content! -->
 <div class="w3-content" style="max-width:1500px">
+  <!-- header -->
+  <div class="w3-opacity">
+    <span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+    <div class="w3-clear"></div>
+    <header class="w3-center w3-margin-bottom">
+      <h1><b>Miss K Memories</b></h1>
+      <p><b>A photo website of Silus and Miss Kitterson made for Silus in May, 2023.</b></p>
+      <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding  </button></p>
+    </header>
+  </div>  <!-- w3-opacity -->
 
-<!-- header -->
-<div class="w3-opacity">
-<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
-<div class="w3-clear"></div>
-<header class="w3-center w3-margin-bottom">
-  <h1><b>Miss K Memories</b></h1>
-  <p><b>A photo website of Silus and Miss Kitterson made for Silus in May, 2023.</b></p>
-  <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p>
-</header>
-</div>
-
-<!-- photo grid -->
-<div class="w3-row" id="myGrid" style="margin-bottom:128px">
+  <!-- photo grid -->
+  <div class="w3-row" id="myGrid" style="margin-bottom:128px">
   <div class="w3-third">
     <!-- or style="width:450px; height:600px" with NO padding -->
     <img src="/photos/Kitterson-001-l-450x600.webp" id="ZoomA" alt="Miss Kitterson on pink blanket." style="width:100%">
@@ -108,8 +112,8 @@
     <img src="/photos/Kitterson-038-l-450x600.webp" id="ZoomA" alt="Miss K on cat mansion with the slow blink showing her love." style="width:100%">
     <img src="/photos/Kitterson-039-l-450x600.webp" id="ZoomA" alt="Miss K on the aquarium." style="width:100%">
     <img src="/photos/Kitterson-040-l-450x600.webp" id="ZoomA" alt="Kitterson laying on bed with Kermit looking on." style="width:100%">
-    <img src="/photos/Kitterson-041-l-450x600.webp" id="ZoomA" alt="Bender the robot smoking a cigar." style="width:100%">
     <img src="/photos/Kitterson-042-l-450x600.webp" id="ZoomA" alt="Miss K lookup up bright eyed." style="width:100%">
+    <img src="/photos/Kitterson-043-l-450x600.webp" id="ZoomA" alt="Miss K image 43." style="width:100%">
   </div>
   <div class="w3-third">
     <img src="/photos/Kitterson-043-l-450x600.webp" id="ZoomA" alt="Miss K image 43." style="width:100%">
@@ -119,9 +123,9 @@
     <img src="/photos/Kitterson-047-l-450x600.webp" id="ZoomA" alt="Miss K image 47." style="width:100%">
     <img src="/photos/Kitterson-048-l-450x600.webp" id="ZoomA" alt="Miss K image 48." style="width:100%">
   </div>
-    </div>
-</div>
-</div>
+    </div>  <!-- w3-row -->
+</div>  <!-- w3-content -->
+
 <!-- <div class="w3-row" id="myGrid" style="margin-bottom:128px"> -->
 </body>
 
@@ -161,4 +165,4 @@ function w3_close() {
 </script>
 
 </html>
-<!-- last updated 6.18.23 at 3:00pm -->
+<!-- last updated 8.26.23 at 4:17pm -->
