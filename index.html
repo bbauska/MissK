@@ -15,14 +15,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Miss Kitterson Memories</title>
   
-  <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
   <link rel="stylesheet" href="/styles/w3.css">
   <link rel="stylesheet" href="/styles/social-icons.css">
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- 8/26/23 for social icons -->
-<!--  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"> -->
   <style>
     body,h1 {font-family: "Montserrat", sans-serif}
     img {margin-bottom: -7px}
@@ -30,122 +27,109 @@
   </style>
 </head>
 <body>
-
-<!-- sidebar -->
-<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
-    <i class="fa fa-remove"></i>
-  </a>
-  <div class="w3-bar-block w3-center">
-    <a href="about.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">About</a>
-    <a href="index.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Photos</a>
-    <!--    <a href="index.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Shop</a> -->
-    <a href="contact.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contact</a>
-  </div>
-</nav>
-
-<!-- !page content! -->
-<div class="w3-content" style="max-width:1500px">
-  <!-- header -->
-  <div class="w3-opacity">
-    <span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
-    <div class="w3-clear"></div>
-    <header class="w3-center w3-margin-bottom">
-      <h1><b>Miss K Memories</b></h1>
-      <p><b>A photo website of Silus and Miss Kitterson made for Silus in May, 2023.</b></p>
-      <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding  </button></p>
-    </header>
-  </div>  <!-- w3-opacity -->
-
-  <!-- photo grid -->
-  <div class="w3-row" id="myGrid" style="margin-bottom:128px">
-    <div class="w3-third">
-      <!-- or style="width:450px; height:600px" with NO padding -->
-      <img src="/photos/Kitterson-001-l-450x600.webp" id="ZoomA" alt="Miss Kitterson on pink blanket." style="width:100%">
-      <img src="/photos/Kitterson-002-l-450x600.webp" id="ZoomA" alt="Miss Kitterson looking alert." style="width:100%">
-      <img src="/photos/Kitterson-003-l-450x600.webp" id="ZoomA" alt="Silus & Miss Kitterson pillow." style="width:100%">
-      <img src="/photos/Kitterson-004-l-450x600.webp" id="ZoomA" alt="Miss Kitterson stretched out half asleep with Kermit looking on." style="width:100%">
-      <img src="/photos/Kitterson-005-l-450x600.webp" id="ZoomA" alt="Miss K sitting tall with controller holder." style="width:100%">
-      <img src="/photos/Kitterson-006-l-450x600.webp" id="ZoomA" alt="Miss K bright-eyed looking alert." style="width:100%">
+  <!-- sidebar -->
+  <nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+      <i class="fa fa-remove"></i>
+    </a>
+    <div class="w3-bar-block w3-center">
+      <a href="about.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">About</a>
+      <a href="index.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Photos</a>
+      <a href="contact.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Contact</a>
     </div>
+  </nav>
 
-    <div class="w3-third">
-      <img src="/photos/Kitterson-007-l-450x600.webp" id="ZoomA" alt="Silus look right, Miss K to the left and down." style="width:100%">
-      <img src="/photos/Kitterson-008-l-450x600.webp" id="ZoomA" alt="Miss Kitterson slow blinking her love for Silus." style="width:100%">
-      <img src="/photos/Kitterson-009-l-450x600.webp" id="ZoomA" alt="Miss K on her cat mansion." style="width:100%">
-      <img src="/photos/Kitterson-010-l-450x600.webp" id="ZoomA" alt="Miss K looking out from under Silus' bed." style="width:100%">
-      <img src="/photos/Kitterson-011-l-450x600.webp" id="ZoomA" alt="Miss K on her cat mansion, with a cat bank." style="width:100%">
-      <img src="/photos/Kitterson-012-l-450x600.webp" id="ZoomA" alt="Miss Kitterson posing with her cat pillow." style="width:100%">
-    </div>
+  <!-- page content -->
+  <div class="w3-content" style="max-width:1500px">
+    <!-- header -->
+    <div class="w3-opacity">
+      <span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+      <div class="w3-clear"></div>
+      <header class="w3-center w3-margin-bottom">
+        <h1><b>Miss K Memories</b></h1>
+        <p><b>A photo website of Silus and Miss Kitterson made for Silus in May, 2023.</b></p>
+        <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding  </button></p>
+      </header>
+    </div>  <!-- w3-opacity -->
+    <!-- photo grid -->
+    <div class="w3-row" id="myGrid" style="margin-bottom:128px">
+      <div class="w3-third">
+        <!-- or style="width:450px; height:600px" with NO padding -->
+        <img src="/photos/Kitterson-001-l-450x600.webp" id="ZoomA" alt="Miss Kitterson on pink blanket." style="width:100%">
+        <img src="/photos/Kitterson-002-l-450x600.webp" id="ZoomA" alt="Miss Kitterson looking alert." style="width:100%">
+        <img src="/photos/Kitterson-003-l-450x600.webp" id="ZoomA" alt="Silus & Miss Kitterson pillow." style="width:100%">
+        <img src="/photos/Kitterson-004-l-450x600.webp" id="ZoomA" alt="Miss Kitterson stretched out half asleep with Kermit looking on." style="width:100%">
+        <img src="/photos/Kitterson-005-l-450x600.webp" id="ZoomA" alt="Miss K sitting tall with controller holder." style="width:100%">
+        <img src="/photos/Kitterson-006-l-450x600.webp" id="ZoomA" alt="Miss K bright-eyed looking alert." style="width:100%">
+      </div>
 
-    <div class="w3-third">
-      <img src="/photos/Kitterson-013-l-450x600.webp" id="ZoomA" alt="Miss K half asleep on her cat mansion." style="width:100%">
-      <img src="/photos/Kitterson-014-l-450x600.webp" id="ZoomA" alt="Miss K alert on her cat mansion." style="width:100%">
-      <img src="/photos/Kitterson-015-l-450x600.webp" id="ZoomA" alt="Kitterson on Silus' bed with dummy looking on." style="width:100%">
-      <img src="/photos/Kitterson-016-l-450x600.webp" id="ZoomA" alt="Kitterson in the kitchen." style="width:100%">
-      <img src="/photos/Kitterson-017-l-450x600.webp" id="ZoomA" alt="Kitterson with her pillow." style="width:100%">
-      <img src="/photos/Kitterson-018-l-450x600.webp" id="ZoomA" alt="Miss K with playstation trophy." style="width:100%">
-    </div>
-    <div class="w3-third">
-      <img src="/photos/Kitterson-019-l-450x600.webp" id="ZoomA" alt="Kitterson asleep on her mansion." style="width:100%">
-      <img src="/photos/Kitterson-020-l-450x600.webp" id="ZoomA" alt="Miss Kitterson laying on Kermit on Silus' bed." style="width:100%">
-      <img src="/photos/Kitterson-021-l-450x600.webp" id="ZoomA" alt="Bright-eyed Kitterson." style="width:100%">
-      <img src="/photos/Kitterson-022-l-450x600.webp" id="ZoomA" alt="Silus with Kitterson asleep." style="width:100%">
-      <img src="/photos/Kitterson-048-l-450x600.webp" id="ZoomA" alt="Miss K image 48." style="width:100%">
-<!-      <img src="/photos/Kitterson-023-l-450x600.webp" id="ZoomA" alt="Artist rendering: Kitterson." style="width:100%">  -->
-      <img src="/photos/Kitterson-024-l-450x600.webp" id="ZoomA" alt="Miss Kitterson asleep in a semi-ball on Silus' bed." style="width:100%">
-    </div>
+      <div class="w3-third">
+        <img src="/photos/Kitterson-007-l-450x600.webp" id="ZoomA" alt="Silus look right, Miss K to the left and down." style="width:100%">
+        <img src="/photos/Kitterson-008-l-450x600.webp" id="ZoomA" alt="Miss Kitterson slow blinking her love for Silus." style="width:100%">
+        <img src="/photos/Kitterson-009-l-450x600.webp" id="ZoomA" alt="Miss K on her cat mansion." style="width:100%">
+        <img src="/photos/Kitterson-010-l-450x600.webp" id="ZoomA" alt="Miss K looking out from under Silus' bed." style="width:100%">
+        <img src="/photos/Kitterson-011-l-450x600.webp" id="ZoomA" alt="Miss K on her cat mansion, with a cat bank." style="width:100%">
+        <img src="/photos/Kitterson-012-l-450x600.webp" id="ZoomA" alt="Miss Kitterson posing with her cat pillow." style="width:100%">
+      </div>
+
+      <div class="w3-third">
+        <img src="/photos/Kitterson-013-l-450x600.webp" id="ZoomA" alt="Miss K half asleep on her cat mansion." style="width:100%">
+        <img src="/photos/Kitterson-014-l-450x600.webp" id="ZoomA" alt="Miss K alert on her cat mansion." style="width:100%">
+        <img src="/photos/Kitterson-015-l-450x600.webp" id="ZoomA" alt="Kitterson on Silus' bed with dummy looking on." style="width:100%">
+        <img src="/photos/Kitterson-016-l-450x600.webp" id="ZoomA" alt="Kitterson in the kitchen." style="width:100%">
+        <img src="/photos/Kitterson-017-l-450x600.webp" id="ZoomA" alt="Kitterson with her pillow." style="width:100%">
+        <img src="/photos/Kitterson-018-l-450x600.webp" id="ZoomA" alt="Miss K with playstation trophy." style="width:100%">
+      </div>
+      <div class="w3-third">
+        <img src="/photos/Kitterson-019-l-450x600.webp" id="ZoomA" alt="Kitterson asleep on her mansion." style="width:100%">
+        <img src="/photos/Kitterson-020-l-450x600.webp" id="ZoomA" alt="Miss Kitterson laying on Kermit on Silus' bed." style="width:100%">
+        <img src="/photos/Kitterson-021-l-450x600.webp" id="ZoomA" alt="Bright-eyed Kitterson." style="width:100%">
+        <img src="/photos/Kitterson-022-l-450x600.webp" id="ZoomA" alt="Silus with Kitterson asleep." style="width:100%">
+        <img src="/photos/Kitterson-048-l-450x600.webp" id="ZoomA" alt="Miss K image 48." style="width:100%">
+        <img src="/photos/Kitterson-024-l-450x600.webp" id="ZoomA" alt="Miss Kitterson asleep in a semi-ball on Silus' bed." style="width:100%">
+      </div>
   
-    <div class="w3-third">
-      <img src="/photos/Kitterson-025-l-450x600.webp" id="ZoomA" alt="Miss K getting a chin rub." style="width:100%">
-      <img src="/photos/Kitterson-026-l-450x600.webp" id="ZoomA" alt="Kitterson looking close." style="width:100%">
-      <img src="/photos/Kitterson-027-l-450x600.webp" id="ZoomA" alt="Miss K looking out from under the blue sheet." style="width:100%">
-      <img src="/photos/Kitterson-028-l-450x600.webp" id="ZoomA" alt="Silus posing with Kitterson on her mansion." style="width:100%">
-      <img src="/photos/Kitterson-046-l-450x600.webp" id="ZoomA" alt="Miss K image 46." style="width:100%">
-<!--     <img src="/photos/Kitterson-029-l-450x600.webp" id="ZoomA" alt="Artist rendering: Kitterson #2." style="width:100%">  -->
-      <img src="/photos/Kitterson-030-l-450x600.webp" id="ZoomA" alt="Miss K looking awake and cute as ever." style="width:100%">
-    </div>
-    <div class="w3-third">
-<!--      <img src="/photos/Kitterson-031-l-450x600.webp" id="ZoomA" alt="Miss K looking up to the bed." style="width:100%"> -->
-<!--      <img src="/photos/Kitterson-032-l-450x600.webp" id="ZoomA" alt="Kitterson looking cute." style="width:100%"> -->
-      <img src="/photos/Kitterson-044-l-450x600.webp" id="ZoomA" alt="Miss K image 44." style="width:100%">
-      <img src="/photos/Kitterson-045-l-450x600.webp" id="ZoomA" alt="Miss K image 45." style="width:100%">
-      <img src="/photos/Kitterson-033-l-450x600.webp" id="ZoomA" alt="Miss K looking out." style="width:100%">
-      <img src="/photos/Kitterson-034-l-450x600.webp" id="ZoomA" alt="Silus posing with Kitterson, thumbs up." style="width:100%">
-      <img src="/photos/Kitterson-035-l-450x600.webp" id="ZoomA" alt="Kitterson getting a chin rub." style="width:100%">
-      <img src="/photos/Kitterson-036-l-450x600.webp" id="ZoomA" alt="Miss K on Silus' bed." style="width:100%">
-    </div>
+      <div class="w3-third">
+        <img src="/photos/Kitterson-025-l-450x600.webp" id="ZoomA" alt="Miss K getting a chin rub." style="width:100%">
+        <img src="/photos/Kitterson-026-l-450x600.webp" id="ZoomA" alt="Kitterson looking close." style="width:100%">
+        <img src="/photos/Kitterson-027-l-450x600.webp" id="ZoomA" alt="Miss K looking out from under the blue sheet." style="width:100%">
+        <img src="/photos/Kitterson-028-l-450x600.webp" id="ZoomA" alt="Silus posing with Kitterson on her mansion." style="width:100%">
+        <img src="/photos/Kitterson-046-l-450x600.webp" id="ZoomA" alt="Miss K image 46." style="width:100%">
+        <img src="/photos/Kitterson-030-l-450x600.webp" id="ZoomA" alt="Miss K looking awake and cute as ever." style="width:100%">
+      </div>
+      <div class="w3-third">
+        <img src="/photos/Kitterson-044-l-450x600.webp" id="ZoomA" alt="Miss K image 44." style="width:100%">
+        <img src="/photos/Kitterson-045-l-450x600.webp" id="ZoomA" alt="Miss K image 45." style="width:100%">
+        <img src="/photos/Kitterson-033-l-450x600.webp" id="ZoomA" alt="Miss K looking out." style="width:100%">
+        <img src="/photos/Kitterson-034-l-450x600.webp" id="ZoomA" alt="Silus posing with Kitterson, thumbs up." style="width:100%">
+        <img src="/photos/Kitterson-035-l-450x600.webp" id="ZoomA" alt="Kitterson getting a chin rub." style="width:100%">
+        <img src="/photos/Kitterson-036-l-450x600.webp" id="ZoomA" alt="Miss K on Silus' bed." style="width:100%">
+      </div>
   
-    <div class="w3-third">
-      <img src="/photos/Kitterson-037-l-450x600.webp" id="ZoomA" alt="Miss K getting some chin music." style="width:100%">
-      <img src="/photos/Kitterson-038-l-450x600.webp" id="ZoomA" alt="Miss K on cat mansion with the slow blink showing her love." style="width:100%">
-      <img src="/photos/Kitterson-039-l-450x600.webp" id="ZoomA" alt="Miss K on the aquarium." style="width:100%">
-      <img src="/photos/Kitterson-040-l-450x600.webp" id="ZoomA" alt="Kitterson laying on bed with Kermit looking on." style="width:100%">
-      <img src="/photos/Kitterson-042-l-450x600.webp" id="ZoomA" alt="Miss K lookup up bright eyed." style="width:100%">
-      <img src="/photos/Kitterson-043-l-450x600.webp" id="ZoomA" alt="Miss K image 43." style="width:100%">
-    </div>
-<!--      <img src="/photos/Kitterson-044-l-450x600.webp" id="ZoomA" alt="Miss K image 44." style="width:100%"> -->
-<!--      <img src="/photos/Kitterson-045-l-450x600.webp" id="ZoomA" alt="Miss K image 45." style="width:100%"> -->
-<!--      <img src="/photos/Kitterson-046-l-450x600.webp" id="ZoomA" alt="Miss K image 46." style="width:100%">   -->
-<!--      <img src="/photos/Kitterson-047-l-450x600.webp" id="ZoomA" alt="Miss K image 47." style="width:100%">   -->
-<!--      <img src="/photos/Kitterson-048-l-450x600.webp" id="ZoomA" alt="Miss K image 48." style="width:100%"> -->
-<!--      <img src="/photos/Kitterson-049-l-450x600.webp" id="ZoomA" alt="Miss K image 49." style="width:100%"> -->
-  </div>  <!-- w3-row -->
-</div>  <!-- w3-content -->
+      <div class="w3-third">
+        <img src="/photos/Kitterson-037-l-450x600.webp" id="ZoomA" alt="Miss K getting some chin music." style="width:100%">
+        <img src="/photos/Kitterson-038-l-450x600.webp" id="ZoomA" alt="Miss K on cat mansion with the slow blink showing her love." style="width:100%">
+        <img src="/photos/Kitterson-039-l-450x600.webp" id="ZoomA" alt="Miss K on the aquarium." style="width:100%">
+        <img src="/photos/Kitterson-040-l-450x600.webp" id="ZoomA" alt="Kitterson laying on bed with Kermit looking on." style="width:100%">
+        <img src="/photos/Kitterson-042-l-450x600.webp" id="ZoomA" alt="Miss K lookup up bright eyed." style="width:100%">
+        <img src="/photos/Kitterson-043-l-450x600.webp" id="ZoomA" alt="Miss K image 43." style="width:100%">
+      </div>
+    </div>  <!-- w3-row -->
+  </div>  <!-- w3-content -->
 
-<!-- <div class="w3-row" id="myGrid" style="margin-bottom:128px"> -->
+  <!-- <div class="w3-row" id="myGrid" style="margin-bottom:128px"> -->
 </body>
-<!-- footer -->
-<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
-  <i class="fa fa-facebook-official w3-hover-opacity">Facebook</i>
-  <i class="fa fa-instagram w3-hover-opacity">Instagram</i>
-  <i class="fa fa-snapchat w3-hover-opacity">Snapchat</i>
-  <i class="fa fa-pinterest-p w3-hover-opacity">Pinterest</i>
-  <i class="fa fa-twitter w3-hover-opacity">Twitter</i>
-  <i class="fa fa-linkedin w3-hover-opacity">LinkedIn</i>
-<a href="https://github.com/bbauska/MissK">Github<i class="fa fa-github w3-hover-opacity"></i></a>
-  <br><br>
-  <p class="w3-medium">Powered by <a href="https://brians-resume.bauska.org" target="_blank" class="w3-hover-text-green">g'pa</a></p>
+  <!-- footer -->
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
+    <i class="fa fa-facebook-official w3-hover-opacity">Facebook</i>
+    <i class="fa fa-instagram w3-hover-opacity">Instagram</i>
+    <i class="fa fa-snapchat w3-hover-opacity">Snapchat</i>
+    <i class="fa fa-pinterest-p w3-hover-opacity">Pinterest</i>
+    <i class="fa fa-twitter w3-hover-opacity">Twitter</i>
+    <i class="fa fa-linkedin w3-hover-opacity">LinkedIn</i>
+  <a href="https://github.com/bbauska/MissK">Github<i class="fa fa-github w3-hover-opacity"></i></a>
+    <br><br>
+    <p class="w3-medium">Powered by <a href="https://brians-resume.bauska.org" target="_blank" class="w3-hover-text-green">g'pa</a></p>
 </footer>
 <script>
 // toggle grid padding
