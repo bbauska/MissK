@@ -1,3 +1,10 @@
+// init
+new Zoomist('#my-zoomist', {
+  height: '75%'
+  slider: true,
+  zoomer: true
+})
+
 function openModal() {
   document.getElementById("myModal").style.display = "block";
 }
