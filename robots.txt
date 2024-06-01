@@ -1,3 +1,2 @@
 Sitemap: http://missk.bauska.org/sitemap.xml
 User-agent: *
-Disallow: /
